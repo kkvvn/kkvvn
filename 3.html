@@ -1,21 +1,896 @@
-<!DOCTYPE html>
-<html>
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content=
-"5">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>期末報告</title>
+<!-- Bootstrap連結 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+<!-- CSS連結 -->
+<link rel="stylesheet" href="style.css">
+
+<!-- 隱藏超連結底線 -->
+<style>
+  a{text-decoration:none}
+  a:hover{text-decoration:none}
+</style>
 
 </head>
-<body>
-<h1>履歷表</h1>
-<P>姓名:張紘瑋</P>
-<p>
-<img src= "google.jpg" width= "256" height="256" />
-</p>
-<p>我是一個來自台中的小孩,我熱愛桌球,努力的來台東求學</p>
-<p>我國小就文心國小,國中是崇德國中,高中是豐原高中</p>
-<P>英文檢定初級通過</p>
-<P>我曾經去桃園參加風力發電比賽拿到佳作的經驗</p>
-<P>victor91102993@gmail.com</p>	
+
+<body style="background-color:rgb(32,33,36)">
+
+<div class="container-fluid">
+  <h1>Anime</h1>
+
+  <!-- 第一部份：標籤分頁的導覽列 -->
+  <div class="nav nav-tabs nav-justified">
+    <!-- 按鈕1 -->
+    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#menu1" aria-selected="true">機戰
+    </button>
+    <!-- 按鈕2 -->
+    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu2" aria-selected="false">運動
+    </button>
+    <!-- 按鈕3 -->
+    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu3" aria-selected="false">冒險
+    </button>
+    <!-- 按鈕4 -->
+    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu4" aria-selected="false">推理
+    </button>
+    <!-- 按鈕5 -->
+    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu5" aria-selected="false">戀愛
+    </button>
+  </div>
+  <br>
+
+
+  <!-- 第二部份：標籤分頁的內容 -->
+  <div class="tab-content">
+
+    <!-- 第1個內容 -->
+    <div class="tab-pane fade show active" id="menu1">
+      <a><img src="圖片/黑圖.webp"></a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#aa1">
+        <img src="圖片/機戰/機動戰士鋼彈 水星的魔女.jpg">
+        <div class="modal fade" id="aa1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">機動戰士鋼彈 水星的魔女</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">故事背景設定於眾多企業擴展到宇宙、構築巨大經濟圈的時代 ―― 星元（A.S.）122年，主角是名為蘇萊塔・墨丘利的少女，他自邊境地帶水星轉學到機動戰士產業龍頭企業「貝納里特集團」所經營的「阿斯提卡西亞高等專門學園」，純潔無垢的胸口閃爍著鮮紅的光芒，少女將一步步邁入嶄新的世界。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/10VerQ"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#aa2">
+        <img src="圖片/機戰/86－不存在的戰區.jpg">
+        <div class="modal fade" id="aa2">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">86－不存在的戰區</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">聖瑪格諾利亞共和國每天都遭受著鄰國「帝國」的無人兵器「軍團 Legion」的侵略。萬幸的是，共和國也成功研發出同型兵器以應對其攻勢，並勉強在沒有人員傷亡的情況下，化解了來自鄰國的威脅。明面上確實沒有人員傷亡，可是，實際上傷亡者並非為零。因為在共和國85區之外，還存在著一個不存在的「第86區」，而被烙上「86」印記的少年少女們會駕駛著「有人駕駛的無人機Regios」，並日以繼夜地戰鬥著。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/DX2mWd"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#aa3">
+        <img src="圖片/機戰/DARLING in the FRANXX 國家隊.jpg">
+        <div class="modal fade" id="aa3">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">DARLING in the FRANXX 國家隊</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">本作故事背景是在一個遙遠的未來，在荒廢的大地上，人類居住在一個巨大移動要塞都市「Plantation」。這些孩子們居住設施的名字叫做「米斯特汀」，通稱鳥籠，他們並不知道外面的世界，也不知道何謂自由，只要被教導著如何駕駛著機器人和「叫竜」這個謎之生物戰鬥。曾經被喻為神童的男主角「016」，和他的朋友們背負著相同的命運，即使在這個封閉的世界，即使所有的一切都被管理著，他們仍然艱苦地生存下來，並且仍舊懷抱著夢想—期許著有一天能夠飛翔到天空。直到有一天，他遇到了一名長著角的謎之少女…</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/eW2XjL"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#aa4">
+        <img src="圖片/機戰/ALDNOAH．ZERO.jpg">
+        <div class="modal fade" id="aa4">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">ALDNOAH．ZERO</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">2014年，已經休戰十餘年的地球與火星正在進行和平談判。另一方面，基於地球與火星可能再戰的假設，格鬥技與人形戰鬥兵器先後進入地球的義務教育，居住於日本新蘆原市的高中生界塚伊奈帆，就是成長於斯的其中之一。於此同時，沃斯帝國公主婭賽蘭·沃斯·艾露西亞以親善大使的身份訪問地球，在其身後目送其離開的則是於地球出生而在火星上長大的少年斯雷因·特洛耶特。然而，她的遊行車隊隨後在新蘆原市遭到恐怖分子的飛彈攻擊，前線的火星騎士將其視為地球的宣戰公告，紛紛將停駐於地球衛星軌道的登陸城降落地球，對世界各國展開攻擊，地球與火星間的戰火再次爆發。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/NGMqzx"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a><img src="圖片/黑圖.webp"></a>
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#aa5">
+        <img src="圖片/機戰/驚爆危機.jpg">
+        <div class="modal fade" id="aa5">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">驚爆危機</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">故事的背景設定在90年代的架空世界中，美蘇雙方的冷戰還在繼續，科技水平略超過真實世界，其中包括存在名為ARM SLAVE的巨大人形兵器。男主角相良宗介是服役於不屬於任何國家的神秘國際軍事組織“秘銀”的士兵（AS駕駛員），在全世界各地執行特殊任務，化解軍事衝突和特殊危機。在一次俄羅斯的任務結束後，他接到了新的任務——化裝為高中生潛入日本東京的一所高中，負責保護一個16歲的普通女高中生千鳥要。從小在戰火中長大、對普通人的世界毫無經驗的男孩與身負特殊命運卻毫不自知的女孩，就這樣相遇了。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/VRx8yn"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#aa6">
+        <img src="圖片/機戰/機動戰士鋼彈SEED HD 重製.jpg">
+        <div class="modal fade" id="aa6">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">機動戰士鋼彈SEED HD 重製</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">劇情以宇宙紀元（C.E.）70 年作為舞台，調整者（P.L.A.N.T.）與自然人（地球聯合），因「血腥情人節」的悲劇，兩方以此事件為開端，正式展開了武裝衝突。戰事經過了 11 月後，居住在中立國歐普太空殖民地的少年「煌・大和」無端的被捲入了戰爭中，然而他卻與幼時好友「阿斯蘭・薩拉」相逢，命運的安排，使兩人被迫走上敵對戰鬥的道路。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/7j8M5y"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#aa7">
+        <img src="圖片/機戰/新世紀福音戰士 EVA.jpg">
+        <div class="modal fade" id="aa7">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">新世紀福音戰士 EVA</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">未知的年代，神給世人以天罰——第一次浩劫（First Impact），七日七夜的洪水中只有兩個人乘諾亞方舟活了下來。 1999年，冬月與碇唯在京都大學相識。不久之後，六分儀源堂和冬月相識。當時源堂和唯已經在交往中。源堂一邊接近唯，同時也一邊接觸她背後的組織Seele。 2000年9月13日，第二次浩劫（Second Impact）發生。在南極大陸上發生了一起給地球帶來巨大浩劫的異變，造成海面水位上升、地軸扭曲。如同恐龍滅絕的傳說，巨大的隕石撞擊地球之後灰塵遮蓋天空，造成全球性氣溫下降。經濟崩壞、民族紛爭、內戰……，世界人口急速減少，只剩下原來的一半。南極，成為了寧靜的殘亡地域。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/bGrl0y"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- 第2個內容 -->
+    <div class="tab-pane fade" id="menu2">
+      <a><img src="圖片/黑圖.webp"></a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#bb1">
+        <img src="圖片/運動/MEGALO BOX／機甲拳擊.jpg">
+        <div class="modal fade" id="bb1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">MEGALO BOX／機甲拳擊</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">講述昏暗的地下拳擊場。被稱為JD（Junk Dog）的男人今天也沉浸於比賽造假當中。為了生存下去。 但是——。他遇到了想要賭上自己的全部去挑戰的，“命運”。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/lZWDN9"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#bb2">
+        <img src="圖片/運動/火之丸相撲.jpg">
+        <div class="modal fade" id="bb2">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">火之丸相撲</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">在《火之丸相撲》作中的主角「潮火之丸」是一名身高矮小、外表無特別之處的少年，然而小小的他，卻隱藏著大大秘密？曾是小學相撲雙冠王、被眾人看好的他，卻在國中後銷聲匿跡、無人聽聞，進入大太刀高中就讀的他決定加入相撲社，但弱小的相撲社不僅沒有社員，就連練習的土俵也被混混搶走……？儘管不具備先天的身體優勢，火之丸卻有著堅強的心志，且看以橫綱為目標的他，如何在高中相撲重新出發的、踏出他的第一步。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/EX0ojm"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#bb3">
+        <img src="圖片/運動/舞動青春 Ballroom e Youkoso.jpg">
+        <div class="modal fade" id="bb3">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">舞動青春 Ballroom e Youkoso</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">本作故事描述主角「富士田多多良」是一名對未來沒有特別的期望的平凡的國中生。直到某一天，他與神秘的安全帽男相遇，在還沒搞清楚狀況下，就被他帶到社交舞教室。在裡面他預見與他同年，卻對未來有明確目標，希望成為職業舞者的「花岡雫」。「希望自己能夠有所改變。」從此踏上舞蹈之路的多多良，原本平淡的日常生活開始發生巨大的轉變──！</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/kqeXOx"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#bb4">
+        <img src="圖片/運動/黑子的籃球／影子籃球員／幻影籃球王.jpg">
+        <div class="modal fade" id="bb4">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">黑子的籃球／影子籃球員／幻影籃球王</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">故事敘述連續蟬連全國中學籃球大賽三年的超強學校帝光中學，因其籃球隊才能之非凡卓越，而使正選的五名天才籃球手被稱之為「奇蹟世代」聞名於當世。但在五人之外，鮮為人知的還有以極端消除自己的存在感以純助攻活躍幫助場上五人的「幻之第六人」黑子哲也！升上高中後眾人各自分散於各校，黑子為了打倒昔日的隊友稱霸全國，而與在美國成長而歸日之籃球好手火神大我攜手合作，誓言成為最強的光與影攻輔組合，帶領所屬誠凜高中籃球部，奪得全日本高校籃球大賽冠軍！</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/4XzodL"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a><img src="圖片/黑圖.webp"></a>
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#bb5">
+        <img src="圖片/運動/前進吧！登山少女／向山進發／來去登山.jpg">
+        <div class="modal fade" id="bb5">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">前進吧！登山少女／向山進發／來去登山</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">作品圍繞愛好室內活動且有恐高症的葵以及熱愛登山並經常鼓動身邊之人的日向展開，描寫青梅竹馬的二人為了再一次看到小時候看過的山頂日出而挑戰登山的故事。雖然是治愈系的作品，但漫畫中也有不少關於登山基礎知識的介紹。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/289ER9"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#bb6">
+        <img src="圖片/運動/排球少年 Haikyu.jpg">
+        <div class="modal fade" id="bb6">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">排球少年 Haikyu</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">小時候，日向翔陽從電視上看見排球比賽，烏野高中的一名小個子在球場上的英姿，簡直就是個「小巨人」，對此非常深刻，並開始迷上排球，一直想成為「小巨人」一樣的人。初中時排球社不夠人數，只好默默等待。後來在新成員和友人的協助下，參與了初中首次也是唯一的比賽，卻不幸與最強的隊伍「北川第一中學」對決而落敗。翔陽為了能夠打出「勝利」的比賽，成為站在球場上最長時間的人，實現成為「小巨人」的排球夢想，決定考入烏野高中，卻遇上發誓要打倒的北川第一中學的影山飛雄？兩人在烏野高中互相競爭下，到底能在球場發生什麼火花呢？</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/eW2DyK"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#bb7">
+        <img src="圖片/運動/強風吹拂.jpg">
+        <div class="modal fade" id="bb7">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">強風吹拂</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">主角「藏原走」曾經是田徑界備受期待的天才跑者，某一天，他因為偷竊而遭追趕，恰巧受到寬政大學學生灰二的幫助。隨後被帶往破舊公寓：竹青莊，而走也因此莫名其妙地必須與田徑門外漢的其他房客一起參加箱根驛傳……</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/33nenV"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- 第3個內容 -->
+    <div class="tab-pane fade" id="menu3">
+      <a><img src="圖片/黑圖.webp"></a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#cc1">
+        <img src="圖片/冒險/overlord.jpg">
+        <div class="modal fade" id="cc1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">OVERLORD 不死者之王</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">過去曾一度引起極大話題的網路遊戲「YGGDRASIL」，其原本應該靜靜的迎接停止一切服務的，只是沒想到時間一到卻造成了玩家無法登出！面對突如其來擁有自我意識的 NPC 與公會外那不曾見過的異世界，在現實世界中只是位喜好電玩的青年現在卻變成了有著骷髏外表的最強魔法師「飛鼠」，他將率領公會展開一場前所未有的傳說。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/85aqvR"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#cc2">
+        <img src="圖片/冒險/來自深淵.jpg">
+        <div class="modal fade" id="cc2">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">來自深淵</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">在一座四面環海的孤島上，存在著直徑約一千公尺，被稱為人類最後的秘境，名喚「深淵」的巨大縱向洞窟。由於其無法得知的深度與神祕，為了各種目的探索深淵的人數逐漸增加，不斷嘗試冒險的人們被稱為「探窟家」。「莉可」是個住在孤兒院的探窟家見習生，她對深淵的憧憬，比任何人都要強烈，其目標是有一天，能成為像母親一樣的偉大探窟家。在某次的探索中，發現一個擁有少年外貌的機械人「雷古」，一起展開波濤洶湧的史詩冒險！</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/oZM0MD"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#cc3">
+        <img src="圖片/冒險/奇諾之旅.jpg">
+        <div class="modal fade" id="cc3">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">奇諾之旅</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">旅行者 奇諾騎著他那會說話的摩托車 漢密斯到各個國家旅行，在每個國家奇諾都只停留三天，在她體會了該國家人民的文化、風俗之後，三天內她便離開並前往另一個國家……以獨到眼光反應這世界形形色色的人事物。他們所碰到的人們在行事和觀念上的荒謬可笑，卻宛如現實世界中的一面鏡子，頗具寓意與哲理。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/VRx8VZ"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#cc4">
+        <img src="圖片/冒險/哥布林殺手.jpg">
+        <div class="modal fade" id="cc4">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">哥布林殺手</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">這是一個專殺哥布林的男子的故事。「我不拯救世界，只管殺哥布林。」據說這間邊境公會裡，有個只靠討伐哥布林就升上銀等（位列第三階）的罕見案例。一名女神官成為冒險者後，首次加入團隊，就在冒險中陷入了危機；而拯救了她的，正是這名人稱「哥布林殺手」的男子。他不擇手段，不辭勞苦，潛心掃蕩哥布林。女神官被這樣的他牽著走。公會的櫃檯小姐感謝他，兒時玩伴的牧牛妹等候他。一名森人少女聽聞他的事蹟，也現身委託任務，和礦人道士、蜥蜴僧侶加入了剿滅哥布林的行列。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/nZ37K6"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a><img src="圖片/黑圖.webp"></a>
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#cc5">
+        <img src="圖片/冒險/記錄的地平線.jpg">
+        <div class="modal fade" id="cc5">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">記錄的地平線</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">這裡是游戲的世界嗎？抑或是——異世界!? 3萬名日本玩家，受困於歷史悠久的在線遊戲——「幻境神話」的世界！與怪物的戰鬥、失去味道的食物、絕對不會死亡的際遇。直到昨天還只是遊戲的「劍與魔法之世界」，從今天起成為「現實世界」。在混亂的局勢之中，自負為獨行俠的城惠，即將與老友直繼以及美少女刺客曉，從廢墟城市「秋葉原」改革這個世界！</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/qZRkEy"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#cc6">
+        <img src="圖片/冒險/灰與幻想的格林姆迦爾.jpg">
+        <div class="modal fade" id="cc6">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">灰與幻想的格林姆迦爾</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">哈爾希洛回過神來，才發現自己身處在黑暗當中，他完全不知道自己人在何處，也不明白這個地方是哪裡。他的身邊有一群和他一樣失去記憶，只記得自己名字的男女，而離開了地底後，等待著眾人的是一個「宛如遊戲」的世界。為求生存，哈爾希洛與自己有著相同境遇的夥伴們組成隊伍、學習技能，以義勇兵見習者的身分踏入了這個世界─「格林姆迦爾」。沒有人知道未來會遇見什麼……這一切，就是從灰燼之中所誕生的冒險譚。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/85aNqM"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#cc7">
+        <img src="圖片/冒險/在地下城尋求邂逅是否搞錯了什麼.jpg">
+        <div class="modal fade" id="cc7">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">在地下城尋求邂逅是否搞錯了什麼</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">迷宮都市歐拉麗，通稱「地下城」，是有廣大的地下迷宮的巨大都市。名為未知的興奮、光輝顯赫的榮耀、以及相遇可愛女生的浪漫，在這人們的夢想與欲望交集的城市裡，以冒險者為志願的少年 貝爾遇見了成員為0人的神明大人 赫斯緹雅，由少年踏出、女神記敘的「眷族物語」的冒險即將展開。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/LXO6AX"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#cc8">
+        <img src="圖片/冒險/黃金神威.jpg">
+        <div class="modal fade" id="cc8">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">黃金神威</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">明治時代後期。別名“不死身的杉元”的英雄·杉元佐一，為了某個目的而前往能夠發大財的北海道。在那裡，有著從阿伊努人手中奪走的莫大藏金這一能夠一攫千金的機會。藏金被收監於網走監獄的男人所隱匿，而24名越獄犯身上所刻的刺青則是指示其所在地的線索。此時，遭到棕熊襲擊的杉元，被一位阿伊努少女所救。名叫阿席莉帕的這位少女，她的父親被奪走藏金的男人殺害。不止如此，彷彿與杉元的行動相呼應一般，早就對藏金虎視眈眈的北方最強部隊以及背負著刺青的越獄犯們的行動也開始浮出水面。以壯闊的北方大地為舞台，這場一攫千金求生行動究竟會如何發展……！？</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/gQAaaz"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a><img src="圖片/黑圖.webp"></a>
+
+    </div>
+
+    <!-- 第4個內容 -->
+    <div class="tab-pane fade" id="menu4">
+      <a><img src="圖片/黑圖.webp"></a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#dd1">
+        <img src="圖片/推理/命運石之門 Steins;Gate.jpg">
+        <div class="modal fade" id="dd1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">命運石之門 Steins;Gate</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">故事開始於2010年7月28日，「未來道具研究所」社團的兩人，岡部倫太郎和椎名真由里去秋葉原廣播會館參加中鉢博士的時間旅行理論發表會，見到了年僅18歲就在科學雜誌上發表學術論文的天才少女牧瀨紅莉栖。發表會結束不久後，在會館8樓深處，岡部發現了倒在血泊中的紅莉栖。驚慌失措的他帶著真由里立刻離開會館，給社團另一成員橋田至發送了一條電子郵件告知這一事件。然而發送後的瞬間，他突然發現街道人群消失，而廣播會館及周圍早已因不明人造衛星墜落緣故被封鎖了，沒有人記得他所經歷的事件...</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/kqeXkG"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#dd2">
+        <img src="圖片/推理/夏日時光／夏日重現.jpg">
+        <div class="modal fade" id="dd2">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">夏日時光／夏日重現</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">故事發生在建立於日都島（日都ヶ島）的小鎮之上，男主角網代慎平由於青梅竹馬小舟潮的逝世而重回故地，卻捲入了牽涉到日都島一個古老傳說的重大事變中，並開始嘗試和同伴們一道阻止即將到來的災禍。故事發生地的原型為友島（友ヶ島），位於紀淡海峽，與淡路島隔海相望，現實中是無人島群，直到二戰結束前都是軍事要地，禁止一般人進入，頗具神秘色彩。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/DX2ADO"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#dd3">
+        <img src="圖片/推理/B：彼之初／B：The Beginning.jpg">
+        <div class="modal fade" id="dd3">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">B：彼之初／B：The Beginning</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">被稱為天才調查員的奇斯·弗列克回到王立警察特殊犯罪搜査科，展開追查連環殺手「殺手B」。這個殺手在犯案現場內必會刻上「B」字，雖引起注意但沒有人知道其意思。好像是殺手留給誰的信息，想告訴某人「我在這裡」。奇斯及連環殺手(黑羽)的命運，被一個陰謀所算計著……</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/85aj7d"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#dd4">
+        <img src="圖片/推理/亂步奇譚 Game of Laplace.jpg">
+        <div class="modal fade" id="dd4">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">亂步奇譚 Game of Laplace</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">作品以日本著名推理小說家江戶川亂步的諸多名作為原案，將亂步的幻想世界觀與現代的舞台相結合。動畫講述在某所中學發生了教師被殺事件。就讀於這所學校的少年小林，與前來搜查事件的天才偵探明智相遇。對於只搜查異常犯罪的明智感興趣的小林，不顧朋友羽柴的反對，自願成為其“助手”。在接連發生的奇怪事件當中，小林很快和明智展開了調查。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/aaYV8G"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a><img src="圖片/黑圖.webp"></a>
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#dd5">
+        <img src="圖片/推理/PSYCHO-PASS／心靈判官／心理測量者.jpg">
+        <div class="modal fade" id="dd5">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">PSYCHO-PASS／心靈判官／心理測量者</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">計算人類的每個心理狀態和個性傾向所徹量的值·通稱：PSYCHO-PASS（心理測量者）而被引進未來世界。因此，為大眾達到「理想的人生」這個指標，實現這些數值變得非常積極。然而，有關犯罪的數值，作為「犯罪係數」也被測量，當然犯罪者是如此，既使如說沒有犯罪，但其規定值超過的人會被列為潛在犯，而受到制裁。這個故事是在描寫為了維持治安的工作，公安局刑事課一係的成員活躍的表現。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/7j8k8y"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#dd6">
+        <img src="圖片/推理/冰菓／冰果／古籍研究社／Hyouka.jpg">
+        <div class="modal fade" id="dd6">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">冰菓／冰果／古籍研究社／Hyouka</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">在各個憧憬展開玫瑰色高中生活的學生之中，折木奉太郎卻是一個「灰色的節能主義者」，認為「沒必要的事不做，不得不做的事，就盡快解決」。本應沒有興趣參加課外活動的他，卻因為姊姊的要求而加入了其學校神山高中的「古籍研究社」。該部今年招攬到奉太郎在內的四名新社員，包括其好友福部里志、不太親近的舊同學伊原摩耶花、以及好奇心旺盛的千反田愛瑠，成功避過廢社危機。然而，眾人隨即捲入45年前的謎團之中。當年突然被退學的社長，留下了一本社刊《冰菓》，內裡竟隱藏著一些引人落淚的訊息……隨之以後，四人在高中的日常中觸及不同的謎題。為了滿足愛瑠的求知慾，奉太郎不得不為遭遇的事情想出一個合理的解釋。時而久之，奉太郎的節能主義不停受到衝擊。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/jREvrM"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#dd7">
+        <img src="圖片/推理/只有我不存在的城市／只有我不在的街道.jpg">
+        <div class="modal fade" id="dd7">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">只有我不存在的城市／只有我不在的街道</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">主角 藤沼悟因為現實生活不順遂而持續掙扎，擁有著「再上映」的穿越時空能力，簡單說就是可主或被動地將時間反覆倒帶重播，藉此阻止「事件」的發生。而他某天下班回到家時，母親已經遭到殺害，自己還被嫁禍成弒親兇手。這時「再上映」啟動了，一睜開眼自己竟然已經回到十八年前。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/kqeao3"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- 第5個內容 -->
+    <div class="tab-pane fade" id="menu5">
+      <a><img src="圖片/黑圖.webp"></a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#ee1">
+        <img src="圖片/戀愛/Citrus ～柑橘味香氣～.jpg">
+        <div class="modal fade" id="ee1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">Citrus ～柑橘味香氣～</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">從來沒有談過戀愛的辣妹藍原柚子，性格嚴肅的學生會會長藍原芽衣，兩人因為父母雙方再婚而成為義姐妹，兩人初次見面時就對雙方留下欠佳的印象。但柚子在學校內意外發現義妹芽衣被教師強吻，強烈衝擊性的場面在柚子腦海中揮之不去。由學校至家中，柚子逐漸被芽衣的一舉一動和一言一行所深深地吸引，柚子與芽衣義姊妹兩人之間的特殊同性戀愛便正式展開…</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/mZO09A"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#ee2">
+        <img src="圖片/戀愛/不起眼女主角培育法／路人女主的養成方法.jpg">
+        <div class="modal fade" id="ee2">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">不起眼女主角培育法／路人女主的養成方法</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">春假時，為了購買動畫藍光片而打工的御宅族安藝倫也，在開滿櫻花的坡道上邂逅一位少女，幫她撿一頂被風吹走的貝雷帽。於是有了以該少女為女主角製作同人遊戲的構想。一週後才知道，該少女是他的同班同學，名叫加藤惠。為了製作同人遊戲，安藝倫也還要說服同年級美術部的繪畫高手澤村·史賓瑟·英梨梨，以及優等生學姐霞之丘詩羽和加藤惠共組同人遊戲社團，開始同人遊戲的製作。之後又與過去認識的學妹波島出海有了連絡，緊接著擅長音樂的表姐冰堂美智留也加入社團。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/33neNO"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#ee3">
+        <img src="圖片/戀愛/聖誕之吻SS／甜蜜吻痕.jpg">
+        <div class="modal fade" id="ee3">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">聖誕之吻SS／甜蜜吻痕</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">主角為高中2年級生的少年。少年憧憬一位前輩・森島遙並常常在遠方默默注視著她、但也因此過著沒有女友的寂寞學校生活。另外、因為他過去的經験，讓他不擅長應付戀愛和聖誕節這種事情。在有天連吐氣都會變成白色的初冬的一天、少年注意到前輩即將畢業，讓他下定決心要克服他的兩項缺點。於是少年和許多女孩見面並且在他不同的行動下都加深了彼此間的關係，也因此將讓他迎向一個不知道會如何發展的聖誕節。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/91kRZ8"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#ee4">
+        <img src="圖片/戀愛/櫻花莊的寵物女孩.jpg">
+        <div class="modal fade" id="ee4">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">櫻花莊的寵物女孩</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">水明藝術大學附屬高中額外獨立宿舍，通稱「櫻花莊」是群聚了一群充滿各式問題學生入住的特殊公寓，被一般人作為「怪人的巢穴」看待。因無法拋棄棄貓而被趕出一般宿舍的主人公神田空太也是其中的一份子。本來應該以「脫出櫻花莊」為目標的空太，卻由於天才畫家椎名真白的入住，導因於其連穿衣服都無法完全自行處理的「超」字輩等級的生活白癡水準，空太莫名奇妙的肩負起有如寵物般的「飼主」責任，開始了照顧真白和被其耍弄的哭笑不得的日子。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/ym86ey"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a><img src="圖片/黑圖.webp"></a>
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#ee5">
+        <img src="圖片/戀愛/偽戀 Nisekoi.jpg">
+        <div class="modal fade" id="ee5">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">偽戀 Nisekoi</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">黑道「集英組」的唯一繼承人，同時也是現役高中生的男主角一條樂，十年前與成為朋友的女孩約定，如果再次相遇就讓我們結婚吧！從那時起，他便隨身帶著那約定之物 …「鎖」。某日，樂的班上來了位美少女轉學生桐崎千棘，而她的真實身分是美國黑幫大小姐。水火不容的兩人，為了讓雙方家族的幫派能夠和平相處，被迫假裝成一對戀人？然而樂真正喜歡的，是身為同班同學的小野寺小咲，與現實妥協的虛假的愛情故事，即將展開！？</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/85aNWo"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#ee6">
+        <img src="圖片/戀愛/堀與宮村／堀宮.jpg">
+        <div class="modal fade" id="ee6">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">堀與宮村／堀宮</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">在片桐高中上學的堀京子有著漂亮的外表，同時成績優秀、家務萬能。某天，受傷的弟弟創太被陌生的少年——也就是同班的陰暗男生，宮村伊澄送回了家。驚訝於在學校與家中的不同，被看到在家中的另一面的京子動搖了。而以關懷害羞認生的創太為契機，宮村開始頻繁的訪問堀家……</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/GX6K3p"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#ee7">
+        <img src="圖片/戀愛/輝夜姬想讓人告白～天才們的戀愛頭腦戰～.jpg">
+        <div class="modal fade" id="ee7">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">輝夜姬想讓人告白～天才們的戀愛頭腦戰～</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">在備受期待的菁英就讀的秀知院學園，在學生會裡相遇的副會長·四宮輝夜與會長白銀御行對彼此都有好感，但兩人的自尊心都不允許自己就這樣向對方告白，就在這樣的情況下僵持了半年——完全不夠坦率的兩人，認為自己只要先告白就輸了，每天想的都是「設法讓對方先告白」。就這樣直到今天，輝夜與白銀使盡渾身解數的戀愛頭腦戰仍在持續著。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/aaY4WY"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#ee8">
+        <img src="圖片/戀愛/青春豬頭少年不會夢到兔女郎學姊.jpg">
+        <div class="modal fade" id="ee8">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">青春豬頭少年不會夢到兔女郎學姊</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">思春期症候群—這是在網路上流傳，只會發生在青少年身上的神祕事件。「聽見某人的心聲」也好、「遇見某人的未來」也好 、「誰和誰的人格交換」也好，都是被稱為思春期症候群，沒人相信的都市傳說。就讀峰原高中二年級的 梓川咲太在某天幫妹妹在圖書館借書時，偶然遇見野生的兔女郎，而那個兔女郎的真實身分是家喻戶曉的、已引退兩年的藝人、三年級的櫻島麻衣，她因為思春期症候群的症狀而逐漸被人遺忘，而咲太為了幫她而逐漸親近在學校被當成空氣的麻衣。</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/06qZ3o"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a><img src="圖片/黑圖.webp"></a>
+
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#ee9">
+        <img src="圖片/戀愛/寄宿學校的茱麗葉.jpg">
+        <div class="modal fade" id="ee9">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 style="color:rgb(0, 0, 0)">寄宿學校的茱麗葉</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <h3 style="color:rgb(0, 0, 0)">劇情簡介</h3><br>
+                <h3 style="color:rgb(0, 0, 0)">寄宿學校．達利亞學園。 在這兩國對立的學生聚集的學校中，有一位為無法被饒恕的戀情而煩惱的一年級生，他就是東和國寮的領袖” 犬塚露壬雄”。 暗戀的對象是威斯特公國寮的領袖，“茱麗葉．佩西亞”。 一切故事將在犬塚的告白後開始！ 絕對不能被發現的戀愛故事 開幕！</h3>
+                <div class="d-grid gap-2">
+                  <a href="https://reurl.cc/bGrlvl"><button class="btn btn-primary" type="button">進入</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+
+    </div>
+
+  </div>
+
+
+</div>
+
 </body>
+
 </html>
